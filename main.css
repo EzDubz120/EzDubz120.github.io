@@ -9,7 +9,14 @@
    Line 115 start of navigation bar
    Line 165 end of navigation bar */
 
-body {
+   @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+     }
+
+   body {
     background-image: url(programming.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;

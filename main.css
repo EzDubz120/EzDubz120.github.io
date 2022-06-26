@@ -16,6 +16,14 @@
        padding: 0;
      }
 
+     body {
+      background-image: url(nebula.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+
+
    body {
     background-image: url(programming.jpg);
     background-repeat: no-repeat;
@@ -84,7 +92,7 @@ h4 {
 
 /* unvisited link */
 a:link {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   /* visited link */

@@ -71,19 +71,19 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 75px;
   }
 
 h2 {
-    font-size: 30px;
+    font-size: 60px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 45px;
 }
 
 h4 {
@@ -92,7 +92,7 @@ h4 {
 
 /* unvisited link */
 a:link {
-    color: rgb(0, 0, 0);
+    color: rgb(232, 2, 2);
   }
   
   /* visited link */

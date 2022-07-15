@@ -34,13 +34,13 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: rgb(100, 100, 100);
+    color: rgb(0, 0, 0);
     font: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p{
-  color: rgb(100, 100, 100);
+  color: rgb(0, 0, 0);
   font: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

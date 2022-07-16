@@ -85,12 +85,12 @@ h4 {
 
 /* unvisited link */
 a:link {
-    color: rgb(232, 2, 2);
+    color: rgb(0, 41, 128);
   }
   
   /* visited link */
   a:visited {
-    color: rgb(0, 41, 128);
+    color: rgb(103, 1, 123);
   }
   
   /* mouse over link */

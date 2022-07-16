@@ -23,13 +23,25 @@ h1 {
 
 <title>Home page</title>
 
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="links and contact.html">Links and contact</a></li>
-    <li><a href="learn.html">Learn</a></li>
-    
-</ul>
+<div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="learn.html">Learn</a>
+    <a href="links and contact.html">Contact</a>
+  </div>
+  
+  <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+  </script>
 
 <h1><b>MillenniumProgramming.com</b></h1>
 

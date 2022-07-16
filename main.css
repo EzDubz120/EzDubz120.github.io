@@ -9,15 +9,8 @@
    Line 115 start of navigation bar
    Line 165 end of navigation bar */
 
-h1 {
-  text-align: center;
-}
 
-h2 {
-  text-align: center;
-}
-
-h3 {
+h1,h2,h3 {
   text-align: center;
 }
 
@@ -28,10 +21,6 @@ body {
   background-size: cover;
 }
 
-@font-face{
-  font-family: "Ubuntu-Regular";
-  src: url('Ubuntu-Regular.ttf'),
-}
 
 h1,h2,h3,h4,h5,h6 {
     color: rgb(0, 0, 0);

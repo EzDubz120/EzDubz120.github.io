@@ -44,15 +44,8 @@ p{
   font: none;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-     body {
-      background-image: url(nebula.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-  }
 
-
-   body {
+body {
     background-image: url(programming.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -64,34 +57,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
-    background-image: url(background2.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-body {
-    background-image: url(abstract-geometric-banner-free-vector.webp);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-body {
-  background-image: url(background2.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-body {
-  background-image: url(background1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 body {

@@ -9,7 +9,18 @@ body {
     background-image: url("./assets/wallpaperflare.com_wallpaper.jpg");
 }
 
-
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
 </style>
 
 <ul>
@@ -28,6 +39,7 @@ body {
 
 <h3>Select Theme</h3>
 
+<div class="form">
 <form action="">
   <label for="theme">Select theme:</label>
   <select name="theme" id="theme">
@@ -38,7 +50,10 @@ body {
   <br><br>
   <input type="submit" value="Submit">
 </form>
+</div>
 
+
+<div class="form">
 <form action="">
     <label for="language">Select language:</label>
     <select name="language" id="language">
@@ -52,6 +67,7 @@ body {
     <br><br>
     <input type="submit" value="Submit">
   </form>
+</div>
 
 </body>
 </html>

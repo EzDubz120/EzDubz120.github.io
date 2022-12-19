@@ -9,6 +9,10 @@
    Line 115 start of navigation bar
    Line 165 end of navigation bar */
 
+.class {
+  font-size: 45px;
+}
+
 
 h1,h2,h3 {
   text-align: center;

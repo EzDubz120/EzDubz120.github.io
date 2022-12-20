@@ -28,7 +28,7 @@ h1,h2,h3 {
 }
 
 body {
-  background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+  background-image: url(wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

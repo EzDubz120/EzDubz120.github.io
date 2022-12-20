@@ -27,6 +27,12 @@ div.theme_switch
     display: block;
     text-align: center;
 }
+
+.dark-mode {
+  background-color: gray;
+  color: white;
+}
+
 </style>
 
 <ul>
@@ -44,7 +50,7 @@ div.theme_switch
 <h1>Settings</h1>
 
 <div class="theme_switch">
-<button onclick="theme_switch">Toggle dark mode</button>
+<button onclick="DarkModeToggle()">Toggle dark mode</button>
 </div>
 
 <h3>Select Language</h3>
@@ -61,6 +67,17 @@ div.theme_switch
     <button onclick="language_change">Save</button>
   </form>
 </div>
+
+
+
+<script>
+    //Dark mode toggle function
+    function DarkModeToggle() {
+       var element = document.body;
+       element.classList.toggle("dark_mode");
+    }
+    </script>
+
 
 </body>
 </html>

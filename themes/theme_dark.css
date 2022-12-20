@@ -1,0 +1,61 @@
+.class {
+  font-size: 75px;
+}
+
+h1,h2,h3 {
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: rgb(0, 0, 0);
+  font: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+color: rgb(0, 0, 0);
+font: none;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+p {
+font-size: 30px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+h4 {
+ font-size: 15px;
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}

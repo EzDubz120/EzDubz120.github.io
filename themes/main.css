@@ -9,6 +9,15 @@
    Line 115 start of navigation bar
    Line 165 end of navigation bar */
 
+.dark_mode {
+    background-image: none;
+    background-color: gray;
+    color: white;
+}
+
+
+
+
 .class {
   font-size: 75px;
 }
